@@ -1,7 +1,7 @@
 import Tkinter as tk
 
 def onKeyPress(event):
-    text.insert('end', 'You pressed %s\n' % (event.char, ))
+    print "hello world"
 
 root = tk.Tk()
 root.bind('<KeyPress>', onKeyPress)
