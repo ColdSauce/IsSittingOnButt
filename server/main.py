@@ -22,10 +22,11 @@ def pressed():
 @app.route("/")
 def index():
 	global isPressed
-	if isPressed:
-		return getPressedHtml()	
-	else:
-		return getNotPressedHtml()
+	#if isPressed:
+	#	return getPressedHtml()	
+	#else:
+	#	return getNotPressedHtml()
+        return render_template("templates/index.html")
 
 if __name__ == "__main__":
     app.run()
