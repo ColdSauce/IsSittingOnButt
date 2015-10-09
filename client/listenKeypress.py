@@ -5,7 +5,6 @@ import tty, termios, sys
 import thread
 import time
 
-
 yaml_contents = None
 
 def get_yaml_contents():
